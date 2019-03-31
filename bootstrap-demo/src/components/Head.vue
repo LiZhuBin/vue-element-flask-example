@@ -1,8 +1,10 @@
 <template>
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
-  <el-menu-item index="1">环境</el-menu-item>
+  <el-menu-item index="1">
+    <router-link to="/">环境</router-link>
+    </el-menu-item>
   <el-menu-item index="2">
-    	<li><router-link  to="/water/bystation" >信息</router-link></li>
+    	<li><router-link  to="/info" >信息</router-link></li>
     </el-menu-item>
 
   <el-menu-item index="3" disabled>消息中心</el-menu-item>

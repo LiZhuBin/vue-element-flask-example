@@ -34,13 +34,14 @@
 </template>
 
 <script>
-
     export default {
-      created() {
-        this.$store.state.adminleftnavnum = "2-2"; //设置左侧导航2-2 active
-      },
-      name: "Slide",
 
+      name: "Slide",
+      data(){
+        return {
+
+        }
+      }
 
     }
 

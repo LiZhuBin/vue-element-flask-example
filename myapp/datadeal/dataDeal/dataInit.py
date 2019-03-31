@@ -11,6 +11,7 @@ class DataInit():
     merchant_col = db['merchant_data']
     city_col = db['city_data']
     station_col = db['station_data']
+    books_col = db['books_data']
 
     def userAdd(self):
         user_dict = {
@@ -49,6 +50,10 @@ class DataInit():
 
     def add_station(self):
         DataInit.station_col.insert_one(requests.get(APP_API["water"]['stations'], params={'key': APP_API['water']['key']}).json())
+
+    def add_books(self):
+        DataInit.books_col.insert_one(requests.get(APP_API["books"]['getBooks'], params={'key': APP_API['books']['key']}).json())
+
     def __init__(self):
         #self.userAdd()
         pass
@@ -59,7 +64,8 @@ if __name__ == '__main__':
     # cities = data_init.city_col.find_one()
     # print(cities)
     #data_init.add_city()
-    data_init.add_station()
+    #data_init.add_station()
+    data_init.add_books()
 
 
 

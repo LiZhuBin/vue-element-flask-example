@@ -6,13 +6,7 @@
         <Head></Head>
 
       </el-header>
-      <el-container>
-
-        <Slide></Slide>
-        <el-main>
-          <router-view></router-view>
-        </el-main>
-      </el-container>
+    <router-view></router-view>
 
 
     </el-container>
@@ -22,14 +16,12 @@
 </template>
 
 <script>
-  import Head from './fragment/Head.vue'
-  import Slide from './fragment/environment/EnvSlide.vue'
+  import Head from './Head.vue'
 
   export default {
     methods: {},
     components: {
       Head,
-      Slide,
 
     },
 

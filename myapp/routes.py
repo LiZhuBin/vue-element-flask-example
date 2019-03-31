@@ -1,10 +1,14 @@
 import requests
-from flask import render_template, Flask, request, jsonify, make_response
+from flask import render_template, Flask, request, jsonify, make_response, Blueprint
 from flask_script import Manager
 
 from myapp.api import APP_API
 from myapp.datadeal.dataDeal.dataInit import DataInit
 import json
+weather_blue = Blueprint("weather", __name__, url_prefix="/home/weather")
+water_blue = Blueprint("water", __name__, url_prefix="/home/water")
+news_blue = Blueprint("news", __name__, url_prefix="/home/info/news")
+books_blue = Blueprint('books', __name__, url_prefix='/home/info/books')
 
 app = Flask(__name__)
 
@@ -44,7 +48,7 @@ def index():
     return 'name:{}'.format("fdddddddddddf")
 
 
-@app.route('/home/weather/getcity', methods=['GET'])
+@weather_blue.route('/getcity', methods=['GET'])
 def get_city():
     """:return city list"""
     cities = DataInit.city_col.find_one()['result']
@@ -59,13 +63,13 @@ def get_city():
 
     return jsonify(d)
 
-@app.route('/home/water/getstation', methods=['GET'])
+@water_blue.route('/getstation', methods=['GET'])
 def get_station():
     stations = DataInit.station_col.find_one()['result']
 
     return jsonify( [{'value':station ,'label':station }for station in stations])
 
-@app.route('/home/weather/getweather/usecity', methods=['GET', 'POST'])
+@weather_blue.route('/getweather/usecity', methods=['GET', 'POST'])
 def by_city():
     city = request.args.get('city')
 
@@ -75,14 +79,36 @@ def by_city():
     # weather_return['city'] = weathers['city']
     return jsonify(weathers)
 
-@app.route('/home/water/getstation/usestation', methods=['GET', 'POST'])
+@water_blue.route('/getstation/usestation', methods=['GET', 'POST'])
 def by_station():
     state = request.args.get('state')
 
     water = requests.get(APP_API["water"]['waterByStation'], params={'key':APP_API['water']['key'],'state': state}).json()
-    # weather_return = weathers['realtime']
-    # weather_return['city'] = weathers['city']
     return jsonify(water)
+
+@news_blue.route('/getnews/<type>', methods=['GET', 'POST'])
+def by_station(type):
+
+    water = requests.get(APP_API["news"]['getNews'], params={'key':APP_API['news']['key'],'type': type}).json()
+    return jsonify(water)
+
+@books_blue.route('/getBooksType', methods=['GET', 'POST'])
+def get_books_type():
+    books = DataInit.books_col.find_one()['result']
+    return jsonify(books)
+
+@books_blue.route('/getBooksContent/<id>')
+def get_books_content(id):
+    content = requests.get(APP_API['books']['getContent'],params={'key':APP_API['books']['key'],'catalog_id':id}).json()
+    return jsonify(content)
+
+
+
+
 if __name__ == '__main__':
     manager = Manager(app)
+    app.register_blueprint(weather_blue)
+    app.register_blueprint(water_blue)
+    app.register_blueprint(news_blue)
+    app.register_blueprint(books_blue)
     app.run()
