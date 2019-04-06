@@ -18,6 +18,10 @@ APP_API = {
         'key':'e7a991e53ec3a0675d065c0bb90ab8de',
         'getBooks':'http://apis.juhe.cn/goodbook/catalog',
         'getContent':'http://apis.juhe.cn/goodbook/query'
+    },
+    'wechat':{
+        'key':'bcb4dbea21618741efa56a4a8ab09d15',
+        'getContent':'http://v.juhe.cn/weixin/query'
     }
 
 }

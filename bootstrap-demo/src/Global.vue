@@ -9,6 +9,7 @@
     const URL_WATER = URL_ROOT+'water/';
     const URL_NEWS = URL_INFO + 'news/';
     const URL_BOOKS = URL_INFO + 'books/';
+    const URL_WECHATNEWS = URL_INFO + 'weChatNews/';
     export default {
         name: "Global",
         URL_ROOT,
@@ -17,7 +18,9 @@
       URL_WATER,
       URL_NEWS,
       URL_BOOKS,
-    }
+      URL_WECHATNEWS,
+  }
+
 </script>
 
 <style scoped>

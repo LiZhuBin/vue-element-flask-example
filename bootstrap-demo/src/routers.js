@@ -6,6 +6,7 @@ import EnvHome from './components/fragment/environment/EnvHome'
 import InfoHome from './components/fragment/infomation/InfoHome'
 import NewsHome from './components/fragment/infomation/news/NewsHome'
 import BooksHome from './components/fragment/infomation/books/BooksHome'
+import WeChatHome from './components/fragment/infomation/wechatnews/WeChatNewsHome'
 
 const routers = [
   {
@@ -34,6 +35,11 @@ const routers = [
         name:'bookHome',
         path:'books/:id',
         component:BooksHome
+      },
+      {
+        name:'weChatHome',
+        path:'weChat/:pno',
+        component:WeChatHome
       }
     ]
 

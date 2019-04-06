@@ -26,8 +26,9 @@
 
 <script>
   export default {
-
+inject: ['reload'],
     created:function(){
+   console.log(this.getStatus(this.$route.path));
       this.$http.get(this.GLOBAL.URL_NEWS+'getnews/'+this.$route.query.types)
         .then(response=>{
           this.news = response.data.result.data;
@@ -45,8 +46,19 @@
         console.log(url);
         window.location.href = url
 
-      }
+      },
+    getStatus (urlStr) {
+    var urlStrArr = urlStr.split('/')
+    return urlStrArr[urlStrArr.length - 1]
   }
+  },
+  watch: {
+  '$route' (to, from) {
+  //刷新参数放到这里里面去触发就可以刷新相同界面了
+    this.getStatus(this.$route.path)
+  }
+}
+
   }
 </script>
 

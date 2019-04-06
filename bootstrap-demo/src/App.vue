@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-
+<div>
+      <router-view v-if="alive" />
+    </div>
 
     <el-dialog title="Sign In" :visible.sync="dialogFormVisible">
       <el-form :model="form">
@@ -39,15 +41,26 @@
           name: '',
           password: '',
         },
-        formLabelWidth: '120px'
+        formLabelWidth: '120px',
+        alive: true
       }
 
     },
     components: {
       Date
     },
+      provide() {
+    return {
+      reload: this.reload
+    }
+  },
     methods: {
-
+reload() {
+      this.alive= false;
+      this.$nextTick(() => {
+        this.alive = true
+      })
+    },
       singIn:function() {
         this.dialogFormVisible = false;
         this.$router.push({

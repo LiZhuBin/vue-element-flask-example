@@ -9,6 +9,7 @@ weather_blue = Blueprint("weather", __name__, url_prefix="/home/weather")
 water_blue = Blueprint("water", __name__, url_prefix="/home/water")
 news_blue = Blueprint("news", __name__, url_prefix="/home/info/news")
 books_blue = Blueprint('books', __name__, url_prefix='/home/info/books')
+wechat_blue = Blueprint('wechatNews', __name__, url_prefix='/home/info/weChatNews')
 
 app = Flask(__name__)
 
@@ -102,6 +103,10 @@ def get_books_content(id):
     content = requests.get(APP_API['books']['getContent'],params={'key':APP_API['books']['key'],'catalog_id':id}).json()
     return jsonify(content)
 
+@wechat_blue.route('/getBooksContent/<pno>')
+def get_wechat_content(pno):
+    content = requests.get(APP_API['wechat']['getContent'], params={'key':APP_API['wechat']['key'],'pno':pno}).json()
+    return jsonify(content)
 
 
 
@@ -111,4 +116,5 @@ if __name__ == '__main__':
     app.register_blueprint(water_blue)
     app.register_blueprint(news_blue)
     app.register_blueprint(books_blue)
+    app.register_blueprint(wechat_blue)
     app.run()
