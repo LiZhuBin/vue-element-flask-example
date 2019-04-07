@@ -7,7 +7,9 @@
     	<li><router-link  to="/info" >信息</router-link></li>
     </el-menu-item>
 
-  <el-menu-item index="3" >体育</el-menu-item>
+  <el-menu-item index="3" >
+   <router-link  to="/sport" >体育</router-link>
+  </el-menu-item>
   <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
 </el-menu>
 </template>
@@ -33,5 +35,8 @@
 </script>
 
 <style scoped>
+ .router-link-active {
+    text-decoration: none;
+  }
 
 </style>

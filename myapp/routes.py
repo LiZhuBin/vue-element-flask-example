@@ -10,6 +10,8 @@ water_blue = Blueprint("water", __name__, url_prefix="/home/water")
 news_blue = Blueprint("news", __name__, url_prefix="/home/info/news")
 books_blue = Blueprint('books', __name__, url_prefix='/home/info/books')
 wechat_blue = Blueprint('wechatNews', __name__, url_prefix='/home/info/weChatNews')
+sport_blue = Blueprint('sport', __name__, url_prefix='/home/sport')
+joke_blue = Blueprint('joke', __name__, url_prefix='/home/jokes')
 
 app = Flask(__name__)
 
@@ -103,10 +105,28 @@ def get_books_content(id):
     content = requests.get(APP_API['books']['getContent'],params={'key':APP_API['books']['key'],'catalog_id':id}).json()
     return jsonify(content)
 
-@wechat_blue.route('/getBooksContent/<pno>')
-def get_wechat_content(pno):
-    content = requests.get(APP_API['wechat']['getContent'], params={'key':APP_API['wechat']['key'],'pno':pno}).json()
+@wechat_blue.route('/getBooksContent/<ps>/<pno>')
+def get_wechat_content(ps,pno):
+    content = requests.get(APP_API['wechat']['getContent'], params={'key':APP_API['wechat']['key'],'pno':pno,'ps':ps}).json()
     return jsonify(content)
+
+@sport_blue.route('/basketball/getTeamName')
+def get_team_name():
+    contents = DataInit.SportInit().team_col.find_one()
+    names = [{'id': key, 'name': content['full_name']} for (key, content) in contents['result'].items()]
+    return jsonify(names)
+
+@sport_blue.route('/basketball/getTeam/<id>')
+def get_team_data(id):
+    contents = DataInit.SportInit().team_col.find_one()['result'][id]
+    return jsonify(contents)
+
+@joke_blue.route('/getNewJoke')
+def get_jock_new():
+    content = requests.get(APP_API['joke']['new']['getNew'],params={'key':APP_API['joke']['new']['key']}).json()
+    return jsonify(content)
+
+
 
 
 
@@ -117,4 +137,6 @@ if __name__ == '__main__':
     app.register_blueprint(news_blue)
     app.register_blueprint(books_blue)
     app.register_blueprint(wechat_blue)
+    app.register_blueprint(sport_blue)
+    app.register_blueprint(joke_blue)
     app.run()

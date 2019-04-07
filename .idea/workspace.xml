@@ -3,25 +3,28 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" line="24" />
     <bookmark url="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" line="23" />
-    <bookmark url="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" line="62" />
+    <bookmark url="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" line="75" />
     <bookmark url="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" line="2" />
     <bookmark url="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" line="47" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fe14262-3519-4031-8ff8-bf143a4c0ab7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/joke/NewJoke.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportSlide.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/basketball/BasketBallHome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/basketball/TeamView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/Global.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/Global.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/Head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/Head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoHome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/books/BooksHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/books/BooksHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/news/NewsHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/news/NewsHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/components/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/components/main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootstrap-demo/src/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-demo/src/routers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,67 +34,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SoftWork$dataInit.coverage" NAME="dataInit Coverage Results" MODIFIED="1554038771060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/datadeal/dataDeal" />
-    <SUITE FILE_PATH="coverage/SoftWork$test.coverage" NAME="test Coverage Results" MODIFIED="1553867757948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SoftWork$dataInit.coverage" NAME="dataInit Coverage Results" MODIFIED="1554565399962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/datadeal/dataDeal" />
+    <SUITE FILE_PATH="coverage/SoftWork$test.coverage" NAME="test Coverage Results" MODIFIED="1554618827972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SoftWork$data_init.coverage" NAME="data-init Coverage Results" MODIFIED="1552566932489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-deal/dataDeal" />
     <SUITE FILE_PATH="coverage/SoftWork$SoftWork.coverage" NAME="SoftWork Coverage Results" MODIFIED="1553772715227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/SoftWork$routes.coverage" NAME="routes Coverage Results" MODIFIED="1554542804593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
+    <SUITE FILE_PATH="coverage/SoftWork$routes.coverage" NAME="routes Coverage Results" MODIFIED="1554626669245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
     <SUITE FILE_PATH="coverage/SoftWork$main.coverage" NAME="main Coverage Results" MODIFIED="1551960524328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhihu_spider/zhihu" />
     <SUITE FILE_PATH="coverage/SoftWork$Flask__myapp___init___py_.coverage" NAME="Flask (myapp/__init__.py) Coverage Results" MODIFIED="1553516299301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SoftWork$microblog.coverage" NAME="microblog Coverage Results" MODIFIED="1553917713918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SoftWork$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1553917729824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="WeChatNewsHome.vue" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="WeChatNewsHome.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/wechatnews/WeChatNewsHome.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/main.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Head.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/Head.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SportHome.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportHome.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoSlide.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#el-aside#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#1453#2307#0" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -128,15 +87,16 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LiZhuBin &lt;lizhubin@github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap-demo/index.html" />
-        <option value="$PROJECT_DIR$/element-demo/package.json" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/webpack.config.js" />
-        <option value="$PROJECT_DIR$/zhihu_spider/zhihu/zhihu/spiders/profile.py" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/Date.vue" />
         <option value="$PROJECT_DIR$/data-deal/data/data.json" />
         <option value="$PROJECT_DIR$/data-deal/dataDeal/data-init.py" />
@@ -156,7 +116,6 @@
         <option value="$PROJECT_DIR$/test.ipynb" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/second/weath/FindCity.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/second/weath/CityWeatherTable.vue" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/second/weather/CityWeatherTable.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/second/MerchatInfo.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/http.js" />
@@ -168,22 +127,27 @@
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/environment/water/WaterHome.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/Slide.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/Head.vue" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/main.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/environment/EnvHome.vue" />
-        <option value="$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/environment/EnvSlide.vue" />
-        <option value="$PROJECT_DIR$/myapp/api.py" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/routers.js" />
-        <option value="$PROJECT_DIR$/myapp/routes.py" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/App.vue" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoHome.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/books/BooksHome.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/news/NewsHome.vue" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/Global.vue" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/wechatnews/WeChatNewsHome.vue" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoHome.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/basketball/BasketBallHome.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/Head.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/Global.vue" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportSlide.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/basketball/TeamView.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/App.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/main.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportHome.vue" />
+        <option value="$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" />
+        <option value="$PROJECT_DIR$/myapp/api.py" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/joke/NewJoke.vue" />
+        <option value="$PROJECT_DIR$/myapp/routes.py" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/routers.js" />
+        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/wechatnews/WeChatNewsHome.vue" />
       </list>
     </option>
   </component>
@@ -195,12 +159,10 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/bootstrap-demo/node_modules" />
-    <handled-path value="$PROJECT_DIR$/vue-element-admin/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/bootstrap-demo/package.json" />
-      <path value="$PROJECT_DIR$/vue-element-admin/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -294,6 +256,16 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="fragment" type="462c0819:PsiDirectoryNode" />
               <item name="infomation" type="462c0819:PsiDirectoryNode" />
+              <item name="joke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+              <item name="infomation" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,6 +290,16 @@
             <path>
               <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+              <item name="sport" type="462c0819:PsiDirectoryNode" />
+              <item name="basketball" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
               <item name="myapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,6 +307,13 @@
               <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
               <item name="myapp" type="462c0819:PsiDirectoryNode" />
               <item name="datadeal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="datadeal" type="462c0819:PsiDirectoryNode" />
+              <item name="dataDeal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
@@ -373,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.routes">
+  <component name="RunManager" selected="Python.test">
     <configuration name="SoftWork" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="SoftWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -511,11 +500,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.routes" />
         <item itemvalue="Python.dataInit" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.microblog" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -530,20 +519,27 @@
       <option name="presentableId" value="Default" />
       <updated>1551759580011</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish two modules:env, info module">
+      <created>1554549580540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554549580540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005359" side_tool="true" visible="true" weight="0.36608186" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3296501" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3314917" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3664825" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18220793" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32982457" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32865497" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" weight="0.33099416" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4994641" visible="true" weight="0.36608186" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18435155" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -555,30 +551,30 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="430" height="840" id="Documentation" side_tool="true" weight="0.329582" />
+      <window_info anchor="right" x="0" y="0" width="430" height="840" id="Documentation" order="4" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296501" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18220793" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18435155" />
       <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32982457" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3314917" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33099416" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296501" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3296501" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32865497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" x="0" y="0" width="430" height="840" id="Documentation" order="0" side_tool="true" weight="0.329582" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3664825" />
+      <window_info anchor="right" x="0" y="0" width="430" height="840" id="Documentation" order="5" side_tool="true" weight="0.329582" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36608186" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -597,30 +593,15 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app/vue-element-admin" />
     </ignored-roots>
+    <MESSAGE value="finish two modules:env, info module" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish two modules:env, info module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapp/templates/tp1/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/myapp/data-deal/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/myapp/app-data.py" />
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/flask/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-demo/node_modules/vue-axios/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -685,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/second/weather/CityWeatherTable.vue" />
     <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/Date.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,32 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/flask/blueprints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="1106" selection-start-line="1106" selection-end-line="1106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/routers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,48 +740,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/news/NewsHome.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="435">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoHome.vue">
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/Head.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="118" column="39" lean-forward="true" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/Global.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -840,45 +761,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/node_modules/element-ui/packages/menu/src/menu-item.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/Global.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/basketball/BasketBallHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/books/BooksHome.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#el-carousel-item#0;n#el-carousel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/news/NewsHome.vue">
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoHome.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/wechatnews/WeChatNewsHome.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#el-aside#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#1453#2307#0" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/main.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-header#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -886,17 +820,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/Head.vue">
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/basketball/TeamView.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="233">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#el-tabs#0;n#template#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportHome.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="195">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/joke/NewJoke.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/sport/SportSlide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#el-aside#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/InfoSlide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#el-aside#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1454#2308#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="108" column="31" lean-forward="true" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-demo/src/components/fragment/infomation/wechatnews/WeChatNewsHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

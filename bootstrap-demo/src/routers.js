@@ -7,6 +7,9 @@ import InfoHome from './components/fragment/infomation/InfoHome'
 import NewsHome from './components/fragment/infomation/news/NewsHome'
 import BooksHome from './components/fragment/infomation/books/BooksHome'
 import WeChatHome from './components/fragment/infomation/wechatnews/WeChatNewsHome'
+import SportHome from './components/fragment/sport/SportHome'
+import BasketBallHome from './components/fragment/sport/basketball/BasketBallHome'
+import TeamView from './components/fragment/sport/basketball/TeamView'
 
 const routers = [
   {
@@ -27,19 +30,37 @@ const routers = [
     path: '/info/',
     component: InfoHome,
     children: [{
-      name:'newsHome',
+      name: 'newsHome',
       path: 'news/:type',
       component: NewsHome
     },
       {
-        name:'bookHome',
-        path:'books/:id',
-        component:BooksHome
+        name: 'bookHome',
+        path: 'books/:id',
+        component: BooksHome
       },
       {
-        name:'weChatHome',
-        path:'weChat/:pno',
-        component:WeChatHome
+        name: 'weChatHome',
+        path: 'weChat',
+        component: WeChatHome
+      }
+    ]
+
+  },
+  {
+    path: '/sport/',
+    component: SportHome,
+    children: [{
+      name: 'BasketBallHome',
+      path: 'basketBallHome/',
+      component: BasketBallHome,
+      children: []
+
+    },
+      {
+        name: 'TeamView',
+        path: 'BasketBall/TeamView',
+        component: TeamView,
       }
     ]
 

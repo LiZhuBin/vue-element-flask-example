@@ -19,6 +19,17 @@
   import Head from './Head.vue'
 
   export default {
+        provide() {
+      return {
+        reload: this.reload
+      }
+    },
+     reload() {
+        this.alive = false;
+        this.$nextTick(() => {
+          this.alive = true
+        })
+      },
     methods: {},
     components: {
       Head,

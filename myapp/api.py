@@ -22,6 +22,19 @@ APP_API = {
     'wechat':{
         'key':'bcb4dbea21618741efa56a4a8ab09d15',
         'getContent':'http://v.juhe.cn/weixin/query'
+    },
+    'sport':{
+        'basketball':{
+            'key':'c4cb54a7757c0271802b1ee70ac3532b',
+            'getTeam':'http://v.juhe.cn/nba/all_team_info.php?'
+
+        }
+    },
+    'joke':{
+       'new':{
+           'key':'61f60492fa6d1705bbc1de2a0b6c3d8d',
+           'getNew':'http://v.juhe.cn/joke/content/text.php'
+       }
     }
 
 }

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-<div>
-      <router-view v-if="alive" />
+    <div>
+      <router-view v-if="alive"/>
     </div>
 
     <el-dialog title="Sign In" :visible.sync="dialogFormVisible">
@@ -22,7 +22,7 @@
 
     </el-dialog>
     <Date></Date>
-<router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -30,9 +30,9 @@
   import Date from './components/Date.vue'
 
   export default {
-    name:'login',
+    name: 'login',
     mounted: function () {
-        this.getAjax();
+      this.getAjax();
     },
     data() {
       return {
@@ -49,19 +49,10 @@
     components: {
       Date
     },
-      provide() {
-    return {
-      reload: this.reload
-    }
-  },
+
     methods: {
-reload() {
-      this.alive= false;
-      this.$nextTick(() => {
-        this.alive = true
-      })
-    },
-      singIn:function() {
+
+      singIn: function () {
         this.dialogFormVisible = false;
         this.$router.push({
           path: '/home',
@@ -78,21 +69,20 @@ reload() {
         });
 
       },
-      getAjax:function () {
-      this.$http.get('http://127.0.0.1:5000/login/',{
+      getAjax: function () {
+        this.$http.get('http://127.0.0.1:5000/login/', {
 
-        headers: {},
-      })
-
-        .then(function (response) {
-          console.log(response.data);
-
+          headers: {},
         })
-        .catch(function (error) {
-          console.log(error);
-        });
-    },
 
+          .then(function (response) {
+            console.log(response.data);
+
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      },
 
 
     }

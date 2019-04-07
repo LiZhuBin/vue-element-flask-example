@@ -32,7 +32,7 @@
 
       <el-submenu index="3">
         <template slot="title"><i class="el-icon-menu"></i>微信精选</template>
-        <router-link :to="{path:'/info/weChat/'+1,query:{pno:1}}" @click.native="viewReload" >微信精选</router-link>
+        <router-link :to="{name:'weChatHome',query:{pno:1,ps:20}}" @click.native="viewReload" >微信精选</router-link>
       </el-submenu>
     </el-menu>
   </el-aside>

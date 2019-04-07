@@ -54,6 +54,19 @@ class DataInit():
     def add_books(self):
         DataInit.books_col.insert_one(requests.get(APP_API["books"]['getBooks'], params={'key': APP_API['books']['key']}).json())
 
+    class SportInit(object):
+
+        def __init__(self):
+            self.out = DataInit()
+            self.team_col = self.out.db['team_data']
+
+        def add_team(self):
+            teams = requests.get(APP_API['sport']['basketball']['getTeam'], params={'key':APP_API['sport']['basketball']['key']}).json()
+            self.team_col.insert_one(teams)
+
+
+
+
     def __init__(self):
         #self.userAdd()
         pass
@@ -61,11 +74,13 @@ class DataInit():
 
 if __name__ == '__main__':
     data_init = DataInit()
+    spot_init = data_init.SportInit()
     # cities = data_init.city_col.find_one()
     # print(cities)
     #data_init.add_city()
     #data_init.add_station()
-    data_init.add_books()
+    #data_init.add_books()
+    spot_init.add_team()
 
 
 
