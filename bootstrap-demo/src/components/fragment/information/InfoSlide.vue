@@ -32,7 +32,22 @@
 
       <el-submenu index="3">
         <template slot="title"><i class="el-icon-menu"></i>微信精选</template>
-        <router-link :to="{name:'weChatHome',query:{pno:1,ps:20}}" @click.native="viewReload" >微信精选</router-link>
+        <el-menu-item-group>
+          <el-menu-item>
+                    <router-link :to="{name:'weChatHome',query:{pno:1,ps:20}}" @click.native="viewReload" >微信精选</router-link>
+
+          </el-menu-item>
+        </el-menu-item-group>
+      </el-submenu>
+      <el-submenu index="4">
+        <template slot="title"><i class="el-icon-menu"></i>笑话</template>
+        <el-menu-item-group>
+          <el-menu-item>
+                <router-link :to="{name:'jokes' ,query:{id:1,page:1,pagesize:20}} " @click.native="viewReload" >最新笑话</router-link>
+          </el-menu-item>
+
+        </el-menu-item-group>
+
       </el-submenu>
     </el-menu>
   </el-aside>

@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import requests
 from flask import render_template, Flask, request, jsonify, make_response, Blueprint
 from flask_script import Manager
@@ -11,7 +13,7 @@ news_blue = Blueprint("news", __name__, url_prefix="/home/info/news")
 books_blue = Blueprint('books', __name__, url_prefix='/home/info/books')
 wechat_blue = Blueprint('wechatNews', __name__, url_prefix='/home/info/weChatNews')
 sport_blue = Blueprint('sport', __name__, url_prefix='/home/sport')
-joke_blue = Blueprint('joke', __name__, url_prefix='/home/jokes')
+joke_blue = Blueprint('joke', __name__, url_prefix='/home/info/jokes')
 
 app = Flask(__name__)
 
@@ -121,9 +123,18 @@ def get_team_data(id):
     contents = DataInit.SportInit().team_col.find_one()['result'][id]
     return jsonify(contents)
 
-@joke_blue.route('/getNewJoke')
+@joke_blue.route('/getNewJoke/',methods=['GET', 'POST'])
 def get_jock_new():
-    content = requests.get(APP_API['joke']['new']['getNew'],params={'key':APP_API['joke']['new']['key']}).json()
+    content = ''
+    id = request.args.get('id')
+    page = request.args.get('page')
+    pagesize = request.args.get('pagesize')
+
+    if id == '1':
+
+        content = requests.get(APP_API['joke']['new']['getNew'],params={'key':APP_API['joke']['new']['key'],'page':page,'pagesize':pagesize}).json()
+    else :
+        content = 'ffdd'
     return jsonify(content)
 
 
