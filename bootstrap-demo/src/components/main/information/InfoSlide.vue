@@ -45,7 +45,9 @@
           <el-menu-item>
                 <router-link :to="{name:'jokes' ,query:{id:1,page:1,pagesize:20}} " @click.native="viewReload" >最新笑话</router-link>
           </el-menu-item>
-
+          <el-menu-item>
+            <router-link :to="{name:'randomJokes' } " @click.native="viewReload" >随机笑话</router-link>
+          </el-menu-item>
         </el-menu-item-group>
 
       </el-submenu>

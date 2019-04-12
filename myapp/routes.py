@@ -105,6 +105,7 @@ def get_books_type():
 @books_blue.route('/getBooksContent/<id>')
 def get_books_content(id):
     content = requests.get(APP_API['books']['getContent'],params={'key':APP_API['books']['key'],'catalog_id':id}).json()
+
     return jsonify(content)
 
 @wechat_blue.route('/getBooksContent/<ps>/<pno>')
@@ -136,6 +137,12 @@ def get_jock_new():
     else :
         content = 'ffdd'
     return jsonify(content)
+@joke_blue.route('/getRandomJoke/')
+def get_joke_random():
+    return jsonify(requests.get(APP_API['joke']['random']['getRandom'],
+                        params={'key':APP_API['joke']['random']['key'],
+                                }).json())
+
 
 
 

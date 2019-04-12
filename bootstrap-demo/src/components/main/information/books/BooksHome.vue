@@ -1,27 +1,37 @@
 <template>
   <div>
-  <el-carousel :interval="4000" type="card" height="300px" >
-    <el-carousel-item v-for="item in bookItems" :key="item" @change = 'carouselChange(item.sub2)'>
-
+  <el-carousel :interval="4000" type="card" height="300px" @change = 'carouselChange'>
+    <el-carousel-item v-for="item in bookItems" :key="item" >
+<el-container>
       <img v-bind:src=item.img height="100%">
-      <div style="float:right ">
+  <el-main>
+      <div style="float:right "  >
         <h1>{{ item.title }}</h1>
         <span></span>
-        <h1>{{item.sub1}}</h1>
-
-        <h1>{{item.catalog}}</h1>
-        <h1>{{item.tag}}</h1>
-        <h1>{{item.reading}}</h1>
-        <h1>{{item.bytime}}</h1>
+        <div>{{item.sub1}}</div>
+        <el-badge></el-badge>
+        <div>{{item.catalog}}</div>
+        <div>{{item.tag}}</div>
+        <div style="float:bottom">
+          {{item.reading}}
+        {{item.bytime}}
+          </div>
       </div>
-
+    </el-main>
+</el-container>
 
     </el-carousel-item>
 
   </el-carousel>
-      <div>
-      {{this.contents}}
+<div>
+
+  <el-card >
+    <div slot="header">
+      <h1>图书简介</h1>
     </div>
+   <div> {{this.currentItem.sub2}}</div>
+  </el-card>
+</div>
     </div>
 </template>
 
@@ -41,12 +51,14 @@ inject: ['reload'],
     data() {
       return {
         bookItems: [],
+        currentItem : '',
         contents:''
       }
     },
     methods: {
-      carouselChange:function (item) {
-        this.contents = item;
+      carouselChange:function (item,item2) {
+        this.currentItem = this.bookItems[item];
+        this.contents = this.currentItem.sub2
       }
     }
   }

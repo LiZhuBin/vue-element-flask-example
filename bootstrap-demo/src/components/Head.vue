@@ -1,41 +1,37 @@
 <template>
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
-  <el-menu-item index="1">
-    <router-link to="/">环境</router-link>
+  <el-menu-item  v-for="(item,index) in this.menus"  @click.native="menuClick(item.menuRouter)">
+    {{item.title}}
     </el-menu-item>
-  <el-menu-item index="2">
-    	<li><router-link  to="/info" >信息</router-link></li>
-    </el-menu-item>
-
-  <el-menu-item index="3" >
-   <router-link  to="/sport" >体育</router-link>
-  </el-menu-item>
-  <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
 </el-menu>
 </template>
 
 <script>
-    export default {
-      data(){
-        return{
-          activeIndex: '1',
-        }
+  export default {
+    name: "Head",
 
-      },
-        name: "Head",
-      methods:{
-            handleOpen(key, keyPath) {
-        console.log(key, keyPath);
-      },
-      handleClose(key, keyPath) {
-        console.log(key, keyPath);
+    data() {
+      return {
+        activeIndex: '1',
+        menus: [
+          {title: '环境', menuRouter: '/'},
+          {title: '信息', menuRouter: '/info'},
+          {title: '体育', menuRouter: '/sport'},
+        ],
+
       }
+
+    },
+    methods: {
+      menuClick: function (menuRouter) {
+        this.$router.push(menuRouter)
       }
     }
+  }
 </script>
 
 <style scoped>
- .router-link-active {
+  .router-link-active {
     text-decoration: none;
   }
 

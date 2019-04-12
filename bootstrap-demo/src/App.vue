@@ -69,20 +69,7 @@
         });
 
       },
-      getAjax: function () {
-        this.$http.get('http://127.0.0.1:5000/login/', {
 
-          headers: {},
-        })
-
-          .then(function (response) {
-            console.log(response.data);
-
-          })
-          .catch(function (error) {
-            console.log(error);
-          });
-      },
 
 
     }

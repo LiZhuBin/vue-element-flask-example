@@ -1,16 +1,17 @@
-import Main from './components/main.vue'
+import Main from './components/Main.vue'
 import Login from './App'
-import Bycity from './components/fragment/environment/weather/WeatherHome'
-import ByStation from './components/fragment/environment/water/WaterHome'
-import EnvHome from './components/fragment/environment/EnvHome'
-import InfoHome from './components/fragment/information/InfoHome'
-import NewsHome from './components/fragment/information/news/NewsHome'
-import NewJokes from './components/fragment/information/joke/NewJoke'
-import BooksHome from './components/fragment/information/books/BooksHome'
-import WeChatHome from './components/fragment/information/wechatnews/WeChatNewsHome'
-import SportHome from './components/fragment/sport/SportHome'
-import BasketBallHome from './components/fragment/sport/basketball/BasketBallHome'
-import TeamView from './components/fragment/sport/basketball/TeamView'
+import Bycity from './components/main/environment/weather/WeatherHome'
+import ByStation from './components/main/environment/water/WaterHome'
+import EnvHome from './components/main/environment/EnvHome'
+import InfoHome from './components/main/information/InfoHome'
+import NewsHome from './components/main/information/news/NewsHome'
+import NewJokes from './components/main/information/joke/NewJoke'
+import RandomJokes from './components/main/information/joke/RandomJoke'
+import BooksHome from './components/main/information/books/BooksHome'
+import WeChatHome from './components/main/information/wechatnews/WeChatNewsHome'
+import SportHome from './components/main/sport/SportHome'
+import BasketBallHome from './components/main/sport/basketball/BasketBallHome'
+import TeamView from './components/main/sport/basketball/TeamView'
 
 const routers = [
   {
@@ -49,6 +50,11 @@ const routers = [
         name:'jokes',
         path:'jokes/',
         component:NewJokes
+      },
+      {
+        name:'randomJokes',
+        path:'jokes/randomJokes/',
+        component:RandomJokes
       }
     ]
 
