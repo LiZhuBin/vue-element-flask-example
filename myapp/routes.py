@@ -2,7 +2,6 @@
 
 import requests
 from flask import render_template, Flask, request, jsonify, make_response, Blueprint
-from flask_script import Manager
 
 from myapp.api import APP_API
 from myapp.datadeal.dataDeal.dataInit import DataInit
@@ -149,7 +148,7 @@ def get_joke_random():
 
 
 if __name__ == '__main__':
-    manager = Manager(app)
+
     app.register_blueprint(weather_blue)
     app.register_blueprint(water_blue)
     app.register_blueprint(news_blue)
