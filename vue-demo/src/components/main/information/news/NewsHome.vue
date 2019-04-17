@@ -27,8 +27,10 @@
 <script>
   export default {
 inject: ['reload'],
-    created:function(){
-   console.log(this.getStatus(this.$route.path));
+
+    created:function() {
+
+
       this.$http.get(this.GLOBAL.URL_NEWS+'getnews/'+this.$route.query.types)
         .then(response=>{
           this.news = response.data.result.data;
@@ -48,7 +50,7 @@ inject: ['reload'],
 
       },
     getStatus (urlStr) {
-    var urlStrArr = urlStr.split('/')
+    var urlStrArr = urlStr.split('/');
     return urlStrArr[urlStrArr.length - 1]
   }
   },

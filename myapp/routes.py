@@ -3,8 +3,8 @@
 import requests
 from flask import render_template, Flask, request, jsonify, make_response, Blueprint
 
-from myapp.api import APP_API
-from myapp.datadeal.dataDeal.dataInit import DataInit
+from api import APP_API
+from datadeal.dataDeal.dataInit import DataInit
 import json
 weather_blue = Blueprint("weather", __name__, url_prefix="/home/weather")
 water_blue = Blueprint("water", __name__, url_prefix="/home/water")

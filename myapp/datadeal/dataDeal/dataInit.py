@@ -1,6 +1,6 @@
 from  pymongo import MongoClient
 import requests
-from myapp.api import APP_API
+from api import APP_API
 import json
 
 class DataInit():

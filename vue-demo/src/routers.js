@@ -12,6 +12,7 @@ import WeChatHome from './components/main/information/wechatnews/WeChatNewsHome'
 import SportHome from './components/main/sport/SportHome'
 import BasketBallHome from './components/main/sport/basketball/BasketBallHome'
 import TeamView from './components/main/sport/basketball/TeamView'
+import InfoMain from './components/main/information/InfoMain'
 
 const routers = [
   {
@@ -31,11 +32,17 @@ const routers = [
   {
     path: '/info/',
     component: InfoHome,
-    children: [{
-      name: 'newsHome',
-      path: 'news/:type',
-      component: NewsHome
-    },
+    children: [
+      {
+        name: 'InfoMain',
+        path: '/',
+        component: InfoMain
+      },
+      {
+        name: 'newsHome',
+        path: 'news/:type',
+        component: NewsHome
+      },
       {
         name: 'bookHome',
         path: 'books/:id',
@@ -47,14 +54,14 @@ const routers = [
         component: WeChatHome
       },
       {
-        name:'jokes',
-        path:'jokes/',
-        component:NewJokes
+        name: 'jokes',
+        path: 'jokes/',
+        component: NewJokes
       },
       {
-        name:'randomJokes',
-        path:'jokes/randomJokes/',
-        component:RandomJokes
+        name: 'randomJokes',
+        path: 'jokes/randomJokes/',
+        component: RandomJokes
       }
     ]
 
