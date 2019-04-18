@@ -1,36 +1,37 @@
 <template>
-  <div id="app">
-    <div>
-      <router-view v-if="alive"/>
-    </div>
 
+  <div id="app">
+<div>
+
+</div>
     <el-dialog title="Sign In" :visible.sync="dialogFormVisible">
+
       <el-form :model="form">
-        <el-form-item label="Name" :label-width="formLabelWidth">
+        <el-form-item label="姓名" :label-width="formLabelWidth">
           <el-input v-model="form.name" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="Password" :label-width="formLabelWidth">
-          <el-input v-model="form.password" autocomplete="off"></el-input>
+        <el-form-item label="密码" :label-width="formLabelWidth">
+          <el-input   v-model="form.password" show-password ></el-input>
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
 
-        <el-button @click="dialogFormVisible = false">取 消</el-button>
+        <el-button @click="exit">取 消</el-button>
         <el-button type="primary" @click="singIn">确 定</el-button>
+        <el-button type="success" @click="singOut">注册</el-button>
       </div>
 
 
     </el-dialog>
-    <Date></Date>
-    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import Date from './components/Date.vue'
+  import Date from '../../Date.vue'
 
   export default {
     name: 'login',
+     inject:  ['reload'],
     mounted: function () {
       this.getAjax();
     },
@@ -38,8 +39,8 @@
       return {
         dialogFormVisible: true,
         form: {
-          name: '',
-          password: '',
+          name: 'abc',
+          password: '123',
         },
         formLabelWidth: '120px',
         alive: true
@@ -51,11 +52,13 @@
     },
 
     methods: {
-
+exit:function(){
+  this.$message('请登录');
+},
       singIn: function () {
         this.dialogFormVisible = false;
         this.$router.push({
-          path: '/home',
+          path: '/',
 
         });
         this.$http({
@@ -67,10 +70,19 @@
             password: this.form.password,
           })
         });
-
+        //message
+      this.$message({
+        message:'登录成功',
+        type:'success'
+      })
       },
 
-
+ singOut:function(){
+          //注册
+    this.$message('暂不可用');
+   // this.dialogFormVisible = false;
+          // this.$router.replace({path:'/user/signout', name:'SignOut'})
+      }
 
     }
   }

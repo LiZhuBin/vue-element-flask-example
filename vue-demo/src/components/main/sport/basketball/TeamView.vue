@@ -18,18 +18,18 @@
       <el-tab-pane label="队伍信息">
         <el-card>
           <div>
-            <el-tag >home
+            <el-tag >体育馆
             </el-tag>
             {{team.home}}
             <a v-bind:href="team.homepage_link">{{team.homepage_link}}</a>
           </div>
 
           <div>
-            <el-tag>cn_division</el-tag>
+            <el-tag>所在赛区</el-tag>
             {{team.cn_division}}
           </div>
           <div>
-            <el-tag>chief_coach</el-tag>
+            <el-tag>教练</el-tag>
             {{team.chief_coach}}
           </div>
 
@@ -39,27 +39,27 @@
         <el-table :data="team.stadiumsInfo">
           <el-table-column
           prop="name"
-          label="name">
+          label="中文名">
 
           </el-table-column>
           <el-table-column
           prop="eng_name"
-          label="eng_name">
+          label="英文名">
 
           </el-table-column>
           <el-table-column
           prop="city"
-          label="city">
+          label="所在城市">
 
           </el-table-column>
           <el-table-column
           prop="state"
-          label="state">
+          label="所在洲">
 
           </el-table-column>
           <el-table-column
           prop="capacity"
-          label="capacity">
+          label="容量">
 
           </el-table-column>
         </el-table>

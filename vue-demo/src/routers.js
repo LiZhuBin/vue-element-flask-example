@@ -1,5 +1,6 @@
 import Main from './components/Main.vue'
-import Login from './App'
+import Login from './components/main/user/Login'
+import SignOut from './components/main/user/SignOut'
 import Bycity from './components/main/environment/weather/WeatherHome'
 import ByStation from './components/main/environment/water/WaterHome'
 import EnvHome from './components/main/environment/EnvHome'
@@ -85,9 +86,20 @@ const routers = [
 
   },
   {
-    path: '/login',
-    component: Login
+    path: '/user/',
+    component: Login,
+    children:[{
+      path:'signin',
+      component: Login,
+    },
+        {
+    path: 'signout',
+    name: SignOut,
+    component: SignOut
+  }
+    ]
   },
+
 
 
 ];

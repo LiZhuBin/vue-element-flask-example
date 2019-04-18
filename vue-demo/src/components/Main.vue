@@ -1,5 +1,7 @@
 <template>
+
   <div>
+    <SignIn></SignIn>
     <el-container style="height: 500px; border: 1px solid #eee">
       <el-header style="text-align: right; font-size: 12px">
 
@@ -17,6 +19,7 @@
 
 <script>
   import Head from './Head.vue'
+  import SignIn from './main/user/Login'
 
   export default {
         provide() {
@@ -33,6 +36,7 @@
     methods: {},
     components: {
       Head,
+      SignIn,
 
     },
 

@@ -2,6 +2,12 @@
 <el-container>
   <SportSlide></SportSlide>
    <el-main>
+     <div>
+      <div >按队伍名查找</div>
+       <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
+       <el-button slot="append" icon="el-icon-search"></el-button>
+         </el-input>
+     </div>
           <router-view v-if="isRouterAlive"></router-view>
         </el-main>
 </el-container>
@@ -13,7 +19,8 @@
         name: "SportHome",
          provide() { // 注册一个方法
     return {
-      reload: this.reload
+      reload: this.reload,
+      options:[]
     }},
       data(){
           return{
