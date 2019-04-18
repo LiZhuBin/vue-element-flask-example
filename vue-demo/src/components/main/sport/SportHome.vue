@@ -5,7 +5,7 @@
      <div>
       <div >按队伍名查找</div>
        <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
-       <el-button slot="append" icon="el-icon-search"></el-button>
+       <el-button slot="append" icon="el-icon-search" @click="search"></el-button>
          </el-input>
      </div>
           <router-view v-if="isRouterAlive"></router-view>
@@ -24,7 +24,8 @@
     }},
       data(){
           return{
-               isRouterAlive: true
+               isRouterAlive: true,
+            input3:''
         }
       },
       components:{
@@ -37,7 +38,13 @@
         this.isRouterAlive = true;
         console.log('reload')
       })
-    }
+    },
+        search:function () {
+          this.$message({
+            message:'没有查到',
+            type: 'error'
+          })
+        }
 
       }
     }

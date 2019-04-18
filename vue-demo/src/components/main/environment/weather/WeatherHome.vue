@@ -3,7 +3,7 @@
   <div>
     <el-container>
 <el-header>
-     <div >select city</div>
+     <div >选择城市</div>
      <el-cascader
       :options="options"
 
@@ -11,7 +11,7 @@
     ></el-cascader>
 </el-header>
       <el-main>
- <div>now weather</div>
+ <div>当前天气</div>
     <el-table
       :data="tableData"
       border
@@ -53,7 +53,7 @@
       </el-table-column>
     </el-table>
     <el-badge></el-badge>
-     <div>future weather</div>
+     <div>未来几天天气</div>
     <el-table
       :data="futureWeather"
       border

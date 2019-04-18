@@ -41,6 +41,7 @@
         form: {
           name: 'abc',
           password: '123',
+          signinUrl:this.GLOBAL.URL_ROOT + 'login/'
         },
         formLabelWidth: '120px',
         alive: true
@@ -56,25 +57,35 @@ exit:function(){
   this.$message('请登录');
 },
       singIn: function () {
-        this.dialogFormVisible = false;
+
+        if(this.form.name!='abc'||this.form.password!='123'){
+            this.$message({
+              message:'账号密码错误',
+              type:'error'
+            })
+        }else{
+          this.dialogFormVisible = false;
         this.$router.push({
           path: '/',
 
         });
-        this.$http({
-          method: 'post',
-          headers: {},
-          usl: this.GLOBAL.URL_ROOT + 'login/',
-          data: this.qs.stringify({
-            name: this.form.name,
-            password: this.form.password,
-          })
-        });
-        //message
-      this.$message({
+          this.$message({
         message:'登录成功',
         type:'success'
       })
+        }
+        //
+        // this.$http({
+        //   method: 'post',
+        //   headers: {},
+        //   usl: this.GLOBAL.URL_ROOT + 'login/',
+        //   data: this.qs.stringify({
+        //     name: this.form.name,
+        //     password: this.form.password,
+        //   })
+        // });
+        //message
+
       },
 
  singOut:function(){

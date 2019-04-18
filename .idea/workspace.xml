@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe14262-3519-4031-8ff8-bf143a4c0ab7" name="Default" comment="remove modules dir">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-demo/src/components/main/user/SignOut.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-demo/src/components/style/BookLayout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-demo/src/image/ImageError.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SoftWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SoftWork.iml" afterDir="false" />
+    <list default="true" id="7fe14262-3519-4031-8ff8-bf143a4c0ab7" name="Default" comment="except user module">
+      <change afterPath="$PROJECT_DIR$/vue-demo/src/components/main/user/UserHome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-demo/src/components/main/user/UserSlide.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/datadeal/dataDeal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/datadeal/dataDeal/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/datadeal/dataDeal/dataInit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/main/environment/EnvSlide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/environment/EnvSlide.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/main/information/InfoMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/information/InfoMain.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/Head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/Head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/TeamView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/TeamView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-demo/src/routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,19 +30,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/news/NewsHome.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#el-card#0;n#el-col#0;n#template#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/SportSlide.vue">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="434">
+              <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/water/WaterHome.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/joke/NewJoke.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-436">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/UserHome.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Head.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -63,70 +85,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/TeamView.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="-270">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/BasketBallHome.vue">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/SignOut.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Main.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-              <folding>
-                <element signature="e#277#306#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/EnvSlide.vue">
+        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Date.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Head.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="n#el-table#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,10 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/information/joke/RandomJake.vue" />
-        <option value="$PROJECT_DIR$/myapp/api.py" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/information/InfoSlide.vue" />
-        <option value="$PROJECT_DIR$/bootstrap-demo/src/routers.js" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/App.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/information/joke/NewJoke.vue" />
         <option value="$PROJECT_DIR$/bootstrap-demo/src/components/fragment/environment/template/DatePicker.vue" />
@@ -237,16 +219,20 @@
         <option value="$PROJECT_DIR$/vue-demo/src/routers.js" />
         <option value="$PROJECT_DIR$/vue-demo/src/main.js" />
         <option value="$PROJECT_DIR$/vue-demo/src/components/Main.vue" />
-        <option value="$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue" />
-        <option value="$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue" />
         <option value="$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/TeamView.vue" />
         <option value="$PROJECT_DIR$/vue-demo/src/components/main/environment/EnvSlide.vue" />
+        <option value="$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue" />
+        <option value="$PROJECT_DIR$/vue-demo/src/components/main/user/UserHome.vue" />
+        <option value="$PROJECT_DIR$/vue-demo/src/components/main/user/UserSlide.vue" />
+        <option value="$PROJECT_DIR$/vue-demo/src/components/Head.vue" />
+        <option value="$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue" />
+        <option value="$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="424" />
-    <option name="y" value="374" />
+    <option name="x" value="604" />
+    <option name="y" value="189" />
     <option name="width" value="707" />
     <option name="height" value="291" />
   </component>
@@ -313,7 +299,46 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="environment" type="462c0819:PsiDirectoryNode" />
+              <item name="water" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="environment" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
+              <item name="joke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftWork" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="information" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftWork" type="b2602c69:ProjectViewProjectNode" />
@@ -567,7 +592,7 @@
       <workItem from="1554984450205" duration="17649000" />
       <workItem from="1555084477822" duration="14329000" />
       <workItem from="1555511052428" duration="201000" />
-      <workItem from="1555512465052" duration="29590000" />
+      <workItem from="1555512465052" duration="32927000" />
     </task>
     <task id="LOCAL-00001" summary="finish two modules:env, info module">
       <created>1554549580540</created>
@@ -618,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555513019988</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="except user module">
+      <created>1555583418106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555583418106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87938000" />
+    <option name="totallyTimeSpent" value="91275000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -634,10 +666,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="424" y="374" width="1920" height="1040" extended-state="6" />
+    <frame x="604" y="189" width="1366" height="728" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2079314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2957317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,28 +736,14 @@
     <MESSAGE value="refine README.md" />
     <MESSAGE value="暂时完成基础功能" />
     <MESSAGE value="remove modules dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove modules dir" />
+    <MESSAGE value="except user module" />
+    <option name="LAST_COMMIT_MESSAGE" value="except user module" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftWork$test.coverage" NAME="test Coverage Results" MODIFIED="1554985427147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SoftWork$routes.coverage" NAME="routes Coverage Results" MODIFIED="1555546854129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/api.ipynb" />
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/modules/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/datadeal/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -791,16 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/BasketBallHome.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/joke/NewJoke.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -907,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/news/NewsHome.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/books/BookContent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -998,65 +999,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Date.vue">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue">
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/EnvSlide.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="161">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/SportSlide.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/TeamView.vue">
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/UserSlide.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Date.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Head.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Main.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/joke/NewJoke.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/information/news/NewsHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#277#306#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#el-card#0;n#el-col#0;n#template#0;n#el-row#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/EnvSlide.vue">
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/user/UserHome.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/Head.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/TeamView.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/basketball/BasketBallHome.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/sport/SportHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/water/WaterHome.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-demo/src/components/main/environment/weather/WeatherHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="n#el-table#0;n#el-main#0;n#el-container#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
