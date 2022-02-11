@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "axios": "latest",
     "bootstrap": "^3.4.1",
     "qs": "^6.6.0",
